@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+}
+.scores{
+    font-family: 'Indie Flower' , cursive;
+    font-size: 25px;
+    display: grid;
+    grid-template-columns: auto auto ;
+}
+.btn{
+    width: 200px;
+    height: 200px;
+    border: 10px solid black;
+    border-radius: 20px;
+    margin: 2rem;
+}
+.btn-container{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.red{
+    background-color: rgb(231, 109, 109);
+}
+.purple{
+    background-color: rgb(253, 122, 253);
+}
+.blue{
+    background-color: rgb(142, 194, 243);
+}
+.green{
+    background-color: rgb(118, 235, 190);
+}
+.flash{
+    background-color: white;
+}
+.userFlash{
+    background-color: rgb(69, 255, 32);
+}
